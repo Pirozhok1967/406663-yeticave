@@ -2,7 +2,7 @@
 $is_auth = (bool) rand(0, 1);
 
 $user_name = 'Константин';
-$user_avatar = 'img/user.jpg';
+$user_avatar = 'img/avatar.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -30,10 +30,10 @@ $user_avatar = 'img/user.jpg';
 
         <?php if ($is_auth == TRUE): ?> 
 			<div class="user-menu__image">
-    				<img src="$user_avatar" width="40" height="40" alt="Пользователь">
+    				<img src="img/avatar.jpg" width="40" height="40" alt="Пользователь">
   			</div>
   			<div class="user-menu__logged">
-    				<p>$user_name</p>
+    				<p>Константин</p>
   			</div> 
 	    <?php else :?> 
 			<ul class="user-menu__list">
