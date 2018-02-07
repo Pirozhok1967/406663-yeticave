@@ -1,5 +1,5 @@
 <?php
-$is_auth = (bool) rand(0, 1);
+$is_auth = (bool) rand(true, false);
 
 $user_name = 'Константин';
 $user_avatar = 'img/avatar.jpg';
@@ -28,7 +28,7 @@ $user_avatar = 'img/avatar.jpg';
 
         <nav class="user-menu">
 
-        <?php if ($is_auth == TRUE): ?> 
+        <?php if ($is_auth === true): ?> 
 			<div class="user-menu__image">
     				<img src="img/avatar.jpg" width="40" height="40" alt="Пользователь">
   			</div>
