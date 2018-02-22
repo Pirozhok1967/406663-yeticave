@@ -27,7 +27,7 @@ $user_avatar = 'img/user.jpg';
         <a class="main-header__add-lot button" href="add-lot.html">Добавить лот</a>
 
         <nav class="user-menu">
-        <?php if ($is_auth === TRUE): ?> 
+        <?php if ($is_auth === true): ?> 
 			<div class="user-menu__image">
     				<img src="$user_avatar" width="40" height="40" alt="Пользователь">
   			</div>
